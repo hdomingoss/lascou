@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Higor Domingos </title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            color: green;
+        }
+        p{
+            color: darkblue;
+        }
+        .um {
+            color: red ;
+        }
+        .dois {
+            color: blue ;
+        }
+        .tres {
+            color: purple ;
+        }
+        p:first-of-type{
+            color: gray ;  
+        }
+        p:nth-of-type(even){
+            color: orange ;
+        } 
+        p:last-of-type{
+            color: black ;
+            font-style:italic ;
+        }
+        table{
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px 0;
+        }
+        th, td{
+            border-collapse: 1px solid #555;
+            padding: 8px ;
+            text-align: center;
+        }
+        th{
+            background-color: #ccc;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #333;
+        }
+        nav li {
+            margin: 0;
+        }
+        nav a {
+            display: block;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover {
+            background-color: #555; /* destaque no hover */
+        }
+        nav a:visited {
+            color: lightgreen; /* cor diferente após o clique */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li class="active"><a href="#teste">Teste</a></li>
+                <li class="active"><a href="http://www.google.com">Google</a></li>
+                <li class="active"><a href="#rodape">Fim da Pagina</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 style="text-align: center;">Site Higor Domingos </h1>
+    <p>Boa Noite, meu nome e Higor e essa e minha primeira pagina HTML em teste, espero que goste.</p>
+    <img src="529309393_24165504516391667_7241235751719496603_n.jpg" alt="Minha Foto">
+    <p><a href="https://www.up.edu.br/">Visite a pagina da minha Faculdade</a></p>
+    <h2>Meus 3 filmes Favoritos ou não</h2>
+     <ol>
+        <li>Velozes e Furiosos </li>
+        <li>Vingadores: Ultimato</li>
+        <li>Gente Grande 2</li>
+     </ol>
+    <h2>Meus 3 Hobbies favoritos</h2>
+        <ul>
+            <li>Jogar bola</li>
+            <li>Academia</li>
+            <li>Tomar uma cerveja</li>
+        </ul> 
+    <h2>Tabela de Informação</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Curso</th>
+            </tr>
+            <td>Higor</td>
+            <td>26</td>
+            <td>Ads-UP</td>
+        </table>  
+     <h2>Teste parágrafos com Classes</h2>
+    <p class="um">Este parágrafo tem uma classe diferente </p>
+    <p class="dois"> Como esse também tem  </p>
+    <p class="tres">E esse não poderia ficar de fora né </p>
+
+    <h2>Teste parágrafos para Seletores CSS</h2>
+    <p>Esse e o 1º parágrafo.</p>
+    <p>Esse e o 2º parágrafo. </p>
+    <p>Esse e o 3º parágrafo.</p>
+    <p>Esse e o 4º parágrafo. </p>
+    <p>Esse e o  último parágrafo.</p>    
+    
+</body>
+</html>
