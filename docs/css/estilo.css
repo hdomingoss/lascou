@@ -1,0 +1,40 @@
+/* Seletor de elementos*/
+body{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Seletor de classe*/
+.Cabecalho{
+    margin-top: 2rem;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+/* Seletor de id*/
+#nome{
+    font-size: xx-large;
+    text-align: center;
+}
+.photo{
+    width: 10rem;
+    border-radius: 5rem;
+    
+}
+.nome-sub{
+    margin: 0rem 2rem 0rem 2rem ;
+    text-align: center;
+}
+.container{
+    display: flex;
+    padding: 15%;
+    
+}
+.menu{
+    width: 15%;
+    background-color: blanchedalmond;
+
+}
+.conteudo{
+    width: 70%;
+}
